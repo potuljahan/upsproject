@@ -27,10 +27,10 @@ public class UPSpackageflight {
 
 	@When("^Navigate shipment package & flight page$")
 	public void navigate_shipment_package_flight_page() throws Throwable {
-		shipingNavigetPgAction.shipingTOpackge();
+		shipingNavigetPgAction.packageflightpage();
 	}
 
-	@Then("^user fil up all required field$")
+	@Then("^user fill up all required field$")
 	public void user_fil_up_all_required_field() throws Throwable {
 		upsshipmentPakegAction.UPSfillUPContactInfo();
 		upsshipmentPakegAction.UPSfillUPAdressInfo();

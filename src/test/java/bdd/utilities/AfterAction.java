@@ -6,11 +6,11 @@ public class AfterAction {
 
 	@After
 
-	public void afterAction(){
+	public void afterAction() {
 
-		//SetupDrivers.tearDownDriver();
+		SetupDrivers.tearDownDriver();
 
-		System.out.println("----------");
+		System.out.println("test complete");
 
 	}
 }

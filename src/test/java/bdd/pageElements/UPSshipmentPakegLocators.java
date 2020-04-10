@@ -42,7 +42,7 @@ public class UPSshipmentPakegLocators {
 	@FindBy(xpath="//input[@id='originextension']")
 	public WebElement Extension;
 	
-	@FindBy(xpath="//input[@id='originextension']")
+	@FindBy(xpath="//button[@id='nbsBackForwardNavigationContinueButton']")
 	public WebElement Continue;
 
 }

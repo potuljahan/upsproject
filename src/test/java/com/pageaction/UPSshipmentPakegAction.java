@@ -18,8 +18,9 @@ public class UPSshipmentPakegAction {
 	
 	public void UPSfillUPContactInfo() throws Exception{
 		Thread.sleep(5000);
+		
 		Select mydrpdwn = new Select (UPSshipmentPakegLocatorsobj.Country);
-		mydrpdwn.selectByVisibleText("UNSTATE SITED");
+		mydrpdwn.selectByVisibleText("United States");
 		
 		UPSshipmentPakegLocatorsobj.Name.sendKeys("Mithun");
 		UPSshipmentPakegLocatorsobj.ContactName.sendKeys("Mithun Begum");}
@@ -34,7 +35,9 @@ public class UPSshipmentPakegAction {
 		UPSshipmentPakegLocatorsobj.City.sendKeys("Ozone Park");
 		
 		Select mydrpdwn = new Select (UPSshipmentPakegLocatorsobj.State);
-		mydrpdwn.deselectByVisibleText("New York");}
+		mydrpdwn.selectByVisibleText("New York");
+		
+	}
 	
 	public void UPSfillUPContactInfo2() throws Exception{
 		Thread.sleep(5000);
@@ -45,7 +48,7 @@ public class UPSshipmentPakegAction {
 	
 	public void ContinueForm() throws Exception{
 		Thread.sleep(5000);
-		UPSshipmentPakegLocatorsobj.Continue.click();
+		//UPSshipmentPakegLocatorsobj.Continue.click();
 	}
 	
 	

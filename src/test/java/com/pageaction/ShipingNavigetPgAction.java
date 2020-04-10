@@ -26,6 +26,9 @@ public class ShipingNavigetPgAction {
 	public void shipingTOpackge () throws Exception{
 		Thread.sleep(5000);
 		UPSshipingLocatorsobj.NavigateToShipmentpage.click();
+	}
+	
+	public void packageflightpage () throws Exception{
 		UPSshipingLocatorsobj.NavigateTopackageflightpage.click();
 	}
  

@@ -1,0 +1,126 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3532556700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAction.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user should able to Navigate shipping link in home page  so that create a shipment package \u0026 flight",
+        "description": "",
+        "id": "users-ability-to-create-a-shipment-package-\u0026-flight;user-should-able-to-navigate-shipping-link-in-home-page--so-that-create-a-shipment-package-\u0026-flight",
+        "after": [
+          {
+            "result": {
+              "duration": 808008000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterAction.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6408702000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on ups homepage",
+            "match": {
+              "location": "UPSpackageflight.user_lands_on_ups_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5323573900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sees shipping button also Navigate it",
+            "match": {
+              "location": "UPSpackageflight.user_sees_shipping_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6515245500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate shipment package \u0026 flight page",
+            "match": {
+              "location": "UPSpackageflight.navigate_shipment_package_flight_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17431222700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fill up all required field",
+            "match": {
+              "location": "UPSpackageflight.user_fil_up_all_required_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000154200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "finish shipment with continue",
+            "match": {
+              "location": "UPSpackageflight.finish_shipment_with_continue()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to create a shipment package \u0026 flight",
+    "description": "",
+    "id": "users-ability-to-create-a-shipment-package-\u0026-flight",
+    "keyword": "Feature",
+    "uri": "PotulUpsShipment.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@shipment"
+      },
+      {
+        "line": 1,
+        "name": "@upspackageflight"
+      },
+      {
+        "line": 1,
+        "name": "@Functional"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@potul"
+      }
+    ]
+  }
+]
